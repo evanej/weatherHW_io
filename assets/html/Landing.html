@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Visualization Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Link to bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen">
+    <!-- Link to CSS stylesheet -->
+    <link rel="stylesheet" href="../css/style.css" media="screen">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Main link for home page -->
+            <div class="nav navbar-nav navbar-brand">
+                <a href="Landing.html" id="navbar-button">Latitude</a>
+            </div>
+            <!-- Navbar right links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Plots  <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="MaxTemp.html">Max Temperature</a></li>
+                        <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                        <li><a class="dropdown-item" href="clouds.html">Cloudiness</a></li>
+                        <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="Comparisons.html">Comparison</a></li>
+                <li><a href="data.html">Data</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="col-md-8">
+            <div class="section1-content">
+                <h3 class="section1-header">Summary: Latitude vs. X</h3>
+                <img src="../images/Fig1.png" alt="" id="section1-photo"/>
+                <p>This project explores weather data from OpenWeatherMap API.</p>
+                <p>It reports correlations among various dimensions of weather and examines trends as locations grow closer to the equator.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="section2-content">
+                <h3 class="section2-header">Visualizations</h3>
+                <a href="MaxTemp.html"><img src="../images/Fig1.png" alt="Latitude vs. Max Temperature" class="section2-photo"></a>
+                <a href="Humidity.html"><img src="../images/Fig2.png" alt="Latitude vs. Humidity" class="section2-photo"></a>
+                <a href="Cloudiness.html"><img src="../images/Fig3.png" alt="Latitude vs. Cloudiness" class="section2-photo"></a>
+                <a href="WindSpeed.html"><img src="../images/Fig4.png" alt="Latitude vs. Wind Speed" class="section2-photo"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

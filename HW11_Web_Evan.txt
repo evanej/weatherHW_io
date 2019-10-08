@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <title>My First Page</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <h1>Hello World!</h1>
+        <img src="https://www.petmd.com/sites/default/files/Senior-Cat-Care-2070625.jpg" alt="Cat"/>
+        
+        <br/>
+        
+        <a href="https://www.google.com">Link</a>
+        
+        <br/>
+        <strong>
+            This is bold text
+        </strong>
+
+        <a href="#">This is a link that goes to nowhere.</a>
+    </body>
+
+</html>
